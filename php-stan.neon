@@ -1,0 +1,7 @@
+parameters:
+    level: 7
+    paths:
+        - src
+    ignoreErrors :
+        - '#has invalid type Illuminate#'
+        - identifier : missingType.generics 
